@@ -44,11 +44,11 @@ public class Seller implements Serializable {
 		this.name = name;
 	}
 
-	public String getEnail() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEnail(String enail) {
+	public void setEmail(String enail) {
 		this.email = enail;
 	}
 
