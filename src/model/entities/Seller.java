@@ -19,10 +19,10 @@ public class Seller implements Serializable {
 	public Seller() {
 	}
 
-	public Seller(Integer id, String name, String enail, Date birthDate, double baseSalary, Department department) {
+	public Seller(Integer id, String name, String email, Date birthDate, double baseSalary, Department department) {
 		this.id = id;
 		this.name = name;
-		this.email = enail;
+		this.email = email;
 		this.birthDate = birthDate;
 		this.baseSalary = baseSalary;
 		this.department = department;
@@ -48,8 +48,8 @@ public class Seller implements Serializable {
 		return email;
 	}
 
-	public void setEmail(String enail) {
-		this.email = enail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public Date getBirthDate() {
